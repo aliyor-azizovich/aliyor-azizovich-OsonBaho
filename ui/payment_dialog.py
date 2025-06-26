@@ -79,7 +79,6 @@ class PaymaentDialog(QDialog):
         date_str = datetime.now().strftime("%Y%m%d")
         self.short_client_id = self.client_id[:40]  # обрезаем до 40 символов
         transaction_param = f"{period}_{self.short_client_id}"
-
         url = (
             f"https://my.click.uz/services/pay"
             f"?service_id=75611"
