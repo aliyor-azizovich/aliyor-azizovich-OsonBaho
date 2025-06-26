@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>income_widget</class>
+ <widget class="QWidget" name="income_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1033</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="6" column="3">
+    <widget class="QLineEdit" name="lineEdit_management"/>
+   </item>
+   <item row="13" column="1">
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Текущая стоимость реверсии</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="2">
+    <widget class="QLineEdit" name="lineEdit_income_cost"/>
+   </item>
+   <item row="15" column="3">
+    <widget class="QPushButton" name="pushButton_income_ok">
+     <property name="text">
+      <string>Далее</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QLabel" name="label_rent">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLineEdit" name="lineEdit_temp_rent"/>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="pushButton_loading">
+     <property name="text">
+      <string>Потери от недозагрузки</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3">
+    <widget class="QLineEdit" name="lineEdit_tax"/>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="label_temp">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLabel" name="label_collect">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLineEdit" name="lineEdit_rent"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QLabel" name="label_loading">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="3">
+    <widget class="QPushButton" name="pushButton_calculate">
+     <property name="text">
+      <string>Рассчитать</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="pushButton_management">
+     <property name="text">
+      <string>Расходы на управление</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QLineEdit" name="lineEdit_loading"/>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="label_capitalization">
+     <property name="text">
+      <string>Ставка дисконта минус риски за объект</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="3">
+    <widget class="QLineEdit" name="lineEdit_discount"/>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout"/>
+   </item>
+   <item row="12" column="2">
+    <widget class="QLineEdit" name="lineEdit_DDP"/>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pushButton_rent">
+     <property name="text">
+      <string>Годовая аренда</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="2">
+    <widget class="QLabel" name="label_management">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="pushButton_collect">
+     <property name="text">
+      <string>Потери от недосбора</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLabel" name="label_tax">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QLabel" name="label_DDP">
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Текущая стоимость ДДП</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Рыночная стоимость объекта оценки, сум</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1" colspan="3">
+    <widget class="QTableWidget" name="tableWidget_income_cost"/>
+   </item>
+   <item row="7" column="1">
+    <widget class="QPushButton" name="pushButton_tax">
+     <property name="text">
+      <string>Налог на имущество</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3">
+    <widget class="QLineEdit" name="lineEdit_collect"/>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pushButton_temp_rent">
+     <property name="text">
+      <string>Темп роста</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <widget class="QLineEdit" name="lineEdit_capitalization"/>
+   </item>
+   <item row="9" column="1">
+    <widget class="QPushButton" name="pushButton_capitalization">
+     <property name="text">
+      <string>Терминальная ставка капитализации</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLineEdit" name="lineEdit_reversion"/>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLabel" name="label_discount">
+     <property name="text">
+      <string>Метод куммулятивного построения</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QPushButton" name="pushButton_discount">
+     <property name="text">
+      <string>Ставка дисконта</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QComboBox" name="comboBox_rent_type"/>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_living_area">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Площадь сдаваемая в аренду</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLineEdit" name="lineEdit_living_area"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
